@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_bottom"
+    app:startDestination="@+id/nav_DetailLiga">
+
+    <fragment
+        android:id="@+id/nav_DetailLiga"
+        android:name="com.corner.apps.ui.detailliga.DetailLigaFragment"
+        android:label="@string/menu_liga"
+        tools:layout="@layout/fragment_detailliga"/>
+
+    <fragment
+        android:id="@+id/nav_NextMatchLiga"
+        android:name="com.corner.apps.ui.nextmatchliga.NextMatchLigaFragment"
+        android:label="@string/menu_liga"
+        tools:layout="@layout/fragment_nextmatcliga"/>
+
+    <fragment
+        android:id="@+id/nav_klasmen"
+        android:name="com.corner.apps.ui.lastmatchliga.LastMatcLigaFragment"
+        android:label="@string/menu_liga"
+        tools:layout="@layout/fragment_lastmatchliga" />
+
+</navigation>

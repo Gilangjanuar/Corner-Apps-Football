@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#C4E0E5"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp"
+    android:id="@+id/cardTim">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id="@+id/logoTim"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Nama Tim"
+            android:id="@+id/namaTim"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
